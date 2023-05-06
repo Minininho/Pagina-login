@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url(/assets/IMAGEM/bolha.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+.content-center {
+    width: 100%;
+    max-width: 500px;
+    height: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 50%;
+}
+
+.content-center img {
+    width: 50%;
+}
+
+.content-center form {
+    margin: 20px;
+}
+
+.content-center input,
+.content-center button {
+    width: 100%;
+    padding: 10px 5px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+}
+
+.content-center input {
+    border-bottom-color: #ccc;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    margin-bottom: 10px;
+}
+
+.content-center input:focus {
+    border-bottom-color: #f371bd;
+    color: #741dff;
+}
+
+.content-center button:hover {
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.content-center button:active {
+    background-color: blueviolet;
+}
+
+header a {
+    color: red;
+    text-decoration: none;
+}
+
+header a:visited {
+    color: #741dff;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header a:focus {
+    color: darkmagenta;
+}
+
+header h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin: 50px auto;
+}
+
+footer {
+    margin-top: 2em;
+    font-size: 0.8em;
+    text-align: center;
+    color: azure;
+}
+
+#text-center {
+    text-align: center;
+    margin-top: 100px;
+}
